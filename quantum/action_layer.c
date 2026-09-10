@@ -309,7 +309,7 @@ uint8_t read_source_layers_cache(keypos_t key) {
 
 #    ifdef KEYCODE_CACHE_ENABLE
 #        ifndef KEYCODE_CACHE_LIMIT
-#            define KEYCODE_CACHE_LIMIT (MATRIX_ROWS * MATRIX_COLS)
+#            define KEYCODE_CACHE_LIMIT 10
 #        endif
 
 typedef struct historical_keycode_t {
