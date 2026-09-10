@@ -145,7 +145,7 @@ If you define these options you will enable the associated feature, which may in
 * `#define KEYCODE_CACHE_ENABLE`
   * Cache keycode for pressed keys, to be used on key release, across entire physical keyboard layout.
 * `#define KEYCODE_CACHE_LIMIT 10`
-  * Optionally limit the number of keycodes able to be cached. Keys pressed beyond the limit will behave as without using the keycode cache.
+  * Allows for changing the limit of the number of keycodes able to be cached. Keys pressed beyond the limit will behave as if the keycode cache were disabled. Default when unspecified is 10.
 
 ## Behaviors That Can Be Configured
 
